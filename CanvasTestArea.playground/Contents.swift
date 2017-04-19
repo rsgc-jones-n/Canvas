@@ -27,9 +27,14 @@ canvas
 canvas.drawAxes()
 
 // Add code below...
-canvas.drawLine(fromX: 100, fromY: 100, toX: 400, toY: 100)
-canvas.drawLine(fromX: 400, fromY: 100, toX: 250, toY: 350)
-canvas.drawLine(fromX: 250, fromY: 350, toX: 100, toY: 100)
+
+canvas.translate(byX: 100, byY: 100)
+canvas.rotate(by: 45)
+canvas.drawAxes()
+
+//canvas.drawLine(fromX: 100, fromY: 100, toX: 400, toY: 100)
+//canvas.drawLine(fromX: 400, fromY: 100, toX: 250, toY: 350)
+//canvas.drawLine(fromX: 250, fromY: 350, toX: 100, toY: 100)
 
 /*:
  
